@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 24" width="1280" height="24" role="img" aria-label="Separador">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .line { stroke: #FFA801; }
+        .dot { fill: #FFA801; }
+      }
+      @media (prefers-color-scheme: light) {
+        .line { stroke: #E8780C; }
+        .dot { fill: #E8780C; }
+      }
+      .line { stroke-width: 0.5; }
+    </style>
+  </defs>
+  <line x1="0" y1="12" x2="610" y2="12" class="line"/>
+  <circle cx="640" cy="12" r="2.5" class="dot"/>
+  <line x1="670" y1="12" x2="1280" y2="12" class="line"/>
+</svg>
