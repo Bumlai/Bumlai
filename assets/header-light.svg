@@ -1,51 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Gabriel Bumlai · Co-fundador SIDEX">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 480" width="1280" height="480" role="img" aria-label="Gabriel Bumlai · Co-fundador SIDEX">
   <defs>
     <style>
-      .bg { fill: #F5F0E8; }
       .navy { fill: #0C1322; }
       .charcoal { fill: #2A2A28; }
       .muted { fill: #5A5A55; }
       .accent { fill: #E8780C; }
-      .accent-line { stroke: #E8780C; stroke-width: 1.5; }
+      .accent-line { stroke: #E8780C; stroke-width: 2; }
 
       .eyebrow {
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 14px;
-        letter-spacing: 6px;
+        font-size: 22px;
+        letter-spacing: 8px;
         font-weight: 400;
       }
       .title {
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 68px;
+        font-size: 110px;
         font-weight: 400;
-        letter-spacing: -1px;
+        letter-spacing: -2px;
       }
       .subtitle {
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 13px;
-        letter-spacing: 6px;
+        font-size: 22px;
+        letter-spacing: 8px;
         font-weight: 400;
       }
       .quote {
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 19px;
+        font-size: 30px;
         font-style: italic;
         font-weight: 400;
       }
     </style>
   </defs>
 
-  <rect width="1280" height="360" class="bg"/>
+  <line x1="80" y1="80" x2="80" y2="400" class="accent-line"/>
 
-  <line x1="80" y1="60" x2="80" y2="300" class="accent-line"/>
+  <text x="120" y="110" class="eyebrow muted">PORTFÓLIO</text>
 
-  <text x="120" y="82" class="eyebrow muted">PORTFÓLIO</text>
+  <text x="120" y="240" class="title navy">Gabriel Bumlai</text>
 
-  <text x="120" y="172" class="title navy">Gabriel Bumlai</text>
+  <text x="120" y="295" class="subtitle accent">CO-FUNDADOR · SIDEX</text>
 
-  <text x="120" y="210" class="subtitle accent">CO-FUNDADOR · SIDEX</text>
+  <line x1="120" y1="335" x2="220" y2="335" class="accent-line"/>
 
-  <line x1="120" y1="244" x2="200" y2="244" class="accent-line"/>
-
-  <text x="120" y="284" class="quote charcoal">&#8220;Cada sistema deveria ter o cuidado de quem o construiu.&#8221;</text>
+  <text x="120" y="395" class="quote charcoal">&#8220;Cada sistema deveria ter o cuidado de quem o construiu.&#8221;</text>
 </svg>
